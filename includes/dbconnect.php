@@ -4,7 +4,7 @@
 $servername = "127.0.0.1";
 $username = "root";
 $password = "root";
-$database = "geurdiscounter";
+$database = "Dieet";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);

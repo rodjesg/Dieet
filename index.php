@@ -22,18 +22,57 @@ require "includes/header.php";
         </tr>
     </table>
 
-    <table class="table table-hover table-bordered table-big">
-        <tr>
-            <th>Dag</th>
-            <th>Datum</th>
-            <th>Tijd</th>
-            <th>Gewicht KG</th>
-            <th>BMI</th>
-            <th>Vet %</th>
-            <th>Visc.vet</th>
-            <th>Spiermassa</th>
-            <th>MO</th>
-        </tr>
+    <?php
+         $query = "SELECT * FROM Card";
+         $result = mysqli_query($conn,$query);
+         while ($row = $result->fetch_array(true))
+         
+     ?>
+
+        <table class="table table-hover table-bordered table-big">
+            <tr>
+                <th>Dag</th>
+                <th>Datum</th>
+                <th>Tijd</th>
+                <th>Gewicht KG</th>
+                <th>BMI</th>
+                <th>Vet %</th>
+                <th>Visc.vet</th>
+                <th>Spiermassa</th>
+                <th>MO</th>
+            </tr>
+
+            <tr>
+                <th>
+                    <?=$prepath?>
+                </th>
+                <th>
+                    <?=$prepath?>
+                </th>
+                <th>
+                    <?=$prepath?>
+                </th>
+                <th>
+                    <?=$prepath?>
+                </th>
+                <th>
+                    <?=$prepath?>
+                </th>
+                <th>
+                    <?=$prepath?>
+                </th>
+                <th>
+                    <?=$prepath?>
+                </th>
+                <th>
+                    <?=$prepath?>
+                </th>
+                <th>
+                    <?=$prepath?>
+                </th>
+            </tr>
+
+        </table>
 
         <?php
 require "includes/footer.php";

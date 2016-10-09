@@ -2,6 +2,7 @@
 
 // Bij de Windows opgegving is er geen wachtwoord nodig. 
 $servername = "127.0.0.1";
+// Online heb je een andere username & password Diuser & F-ww.
 $username = "root";
 $password = "root";
 $database = "Dieet";

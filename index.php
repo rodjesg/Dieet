@@ -73,8 +73,10 @@ require "includes/header.php";
                     <?=$row['MO']?>
                 </td>
             </tr>
-            <!--  Footer  -->
+    </table>
 
-            <?php
+
+    <!--  Footer  -->
+    <?php
 require "includes/footer.php";
 ?>

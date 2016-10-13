@@ -41,7 +41,7 @@ require "includes/header.php";
       
                     $query = "SELECT * FROM Card";
                     $result = mysqli_query($conn,$query);
-                    while ($row = $result->fetch_array(true));  
+                    while ($row = $result->fetch_array(true)) {  
                   
         ?>
             <tr>
@@ -64,19 +64,21 @@ require "includes/header.php";
                     <?=$row['Vet']?>
                 </td>
                 <td>
-                    <?=$row['Viceraalvet']?>
+                    <?=$row['Visceraalvet']?>
                 </td>
                 <td>
-                    <?=$row['Spiemassa']?>
+                    <?=$row['Spiermassa']?>
                 </td>
                 <td>
                     <?=$row['MO']?>
                 </td>
             </tr>
-    </table>
 
 
-    <!--  Footer  -->
-    <?php
+
+            <!--  Footer  -->
+            <?php
+                    }
 require "includes/footer.php";
 ?>
+    </table>

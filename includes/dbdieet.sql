@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `Card` (
     `Vet` double(6,2) NOT NULL,
     `Visceraalvet` double(6,2) NOT NULL,
     `Spiermassa` double(6,2) NOT NULL,
-    `MO` varchar(11) NOT NULL,
+    `MO` varchar(11),
   PRIMARY KEY (`Dag`, `Datum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -46,8 +46,8 @@ CREATE TABLE IF NOT EXISTS `Card` (
 --
 
 INSERT INTO `Card` (`Dag`, `Datum`, `Tijd`, `Gewicht`, `BMI`, `Vet`, `Visceraalvet`, `Spiermassa`, `MO`) VALUES
-('Di', '2016-08-01', '12:15:00', 106.6,39.9,37.5,20,30.2,1),
-('Di', '2016-09-21', '12:15:00', 104.7,38.9,36.04,20,30.2,2);
+('Di', '2016-08-01', '12:15:00', 106.6,39.9,37.5,20,30.2),
+('Di', '2016-09-21', '12:15:00', 104.7,38.9,36.04,20,30.2);
 
 
 

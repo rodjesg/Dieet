@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `Card` (
     `Spiermassa` double(6,2) NOT NULL,
     `MO` varchar(11),
   PRIMARY KEY (`Dag`, `Datum`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
 
 --
 -- Dumping data for table `Card`

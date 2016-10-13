@@ -5,6 +5,7 @@ setlocale(LC_TIME, 'nl_NL', 'nl', 'du');
 date_default_timezone_set('Europe/Amsterdam');
 $today = date("Y-m-d");
 require "includes/header.php";
+header("Content-Type: text/html; charset=ISO-8859-1");
 
 
 ?>
@@ -74,11 +75,12 @@ require "includes/header.php";
                 </td>
             </tr>
 
-
-
             <!--  Footer  -->
             <?php
                     }
 require "includes/footer.php";
 ?>
     </table>
+    <div class="pbottom">
+        <p>Annulering tot één werkdag van tevoren. Nadien wordt het consulttarief in rekening gebracht</p>
+    </div>

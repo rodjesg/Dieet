@@ -32,11 +32,11 @@ CREATE TABLE IF NOT EXISTS `Card` (
   `Dag` varchar (10) NOT NULL,
   `Datum` date NOT NULL,
   `Tijd` time NOT NULL,
-  `Gewicht` int(11) NOT NULL,
-    `BMI` double(6,2) NOT NULL,
-    `Vet` double(6,2) NOT NULL,
-    `Visceraalvet` double(6,2) NOT NULL,
-    `Spiermassa` double(6,2) NOT NULL,
+  `Gewicht` varchar(11) NOT NULL,
+    `BMI` varchar(11) NOT NULL,
+    `Vet` varchar(11) NOT NULL,
+    `Visceraalvet` varchar(11) NOT NULL,
+    `Spiermassa` varchar(11) NOT NULL,
     `MO` varchar(11),
   PRIMARY KEY (`Dag`, `Datum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `Card` (
 
 INSERT INTO `Card` (`Dag`, `Datum`, `Tijd`, `Gewicht`, `BMI`, `Vet`, `Visceraalvet`, `Spiermassa`, `MO`) VALUES
 ('Di', '2016-08-01', '12:15:00', 106.6,39.9,37.5,20,30.2,''),
-('Di', '2016-09-21', '12:15:00', 104.7,38.9,36.04,20,30.2,'');
+('Di', '2016-09-21', '12:15:00', 104.7,38.9,36.4,20,30.2,'');
 
 
 

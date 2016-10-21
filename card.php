@@ -1,6 +1,4 @@
 <?php
-$title = "Home";
-$home = true;
 setlocale(LC_TIME, 'nl_NL', 'nl', 'du');
 date_default_timezone_set('Europe/Amsterdam');
 $today = date("Y-m-d");
@@ -14,7 +12,7 @@ require "includes/header.php";
     <br>
     <h1>Clientkaart</h1>
     <br>
-
+    <a href="../index.html" class="btn btn-lg btn-default">Click om te bekijken!</a>
     <table class="table table-bordered">
         <tr>
             <th colspan="3">Client: Dhr Geerlings Rodney</th>

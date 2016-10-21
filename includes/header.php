@@ -41,3 +41,4 @@
 
     <body>
         <div class="container container-fluid">
+            <a href="index.html" class="btn btn-lg btn-default">Home</a>

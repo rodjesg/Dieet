@@ -172,4 +172,8 @@ body {
 }
 .pbottom {
     color: red;
+    text-align: left;
+}
+.cardtext {
+    text-align: left;
 }

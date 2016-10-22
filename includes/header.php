@@ -41,4 +41,7 @@
 
     <body>
         <div class="container container-fluid">
-            <a href="index.html" class="btn btn-lg btn-default">Home</a>
+            <nav class="navbar navbar-inverse">
+                <a href="index.html" class="btn btn-lg btn-default">Home</a>
+                <a href="#" class="btn btn-lg btn-default">Card</a>
+            </nav>

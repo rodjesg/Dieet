@@ -9,10 +9,12 @@ require "includes/header.php";
 
 
 ?>
-    <br>
-    <h1>Clientkaart</h1>
-    <br>
-    <a href="../index.html" class="btn btn-lg btn-default">Click om te bekijken!</a>
+    <div class="cardtext">
+        <br>
+        <h1>Clientkaart</h1>
+        <br>
+    </div>
+
     <table class="table table-bordered">
         <tr>
             <th colspan="3">Client: Dhr Geerlings Rodney</th>

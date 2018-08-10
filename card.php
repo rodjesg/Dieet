@@ -4,7 +4,8 @@ date_default_timezone_set('Europe/Amsterdam');
 $today = date("Y-m-d");
 require "includes/header.php";
 
-
+$birthYear =1984;
+$currentYear = date("Y");
 
 
 
@@ -21,7 +22,7 @@ require "includes/header.php";
         </tr>
         <tr>
             <td>Lengte: 1,63 m</td>
-            <td>Leeftijd: 31</td>
+            <td>Leeftijd:<?php print $year = $currentYear - $birthYear; ?></td>
             <td>Tel: </td>
         </tr>
     </table>
